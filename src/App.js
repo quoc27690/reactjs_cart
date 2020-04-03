@@ -11,14 +11,12 @@ function App() {
   return (
     <div>
       <Header />
-      {/* <main id="mainContainer">
-        <div className="container">
-          <Products />
-          <Message />
-          <Cart />
-        </div>
-      </main> */}
-      <Footer />
+      <div className="container-fluid">
+        <Products />
+        <Message />
+        <Cart />
+      </div>
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -5,14 +5,18 @@ import Product from "./Product";
 export default class Products extends Component {
   render() {
     return (
-      <section className="section">
-        <h1 className="section-heading">Danh Sách Sản Phẩm</h1>
-        <div className="row">
+      <div>
+        <h2 className="text-center">Danh Sách Sản Phẩm</h2>
+        <hr className="my-4" />
+        <div className="row text-center">
+          <Product />
+          <Product />
           <Product />
           <Product />
           <Product />
         </div>
-      </section>
+        <hr className="my-4" />
+      </div>
     );
   }
 }

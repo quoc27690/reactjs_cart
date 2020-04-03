@@ -22,7 +22,7 @@ export default class Header extends Component {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav mr-auto ml-4">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="#">
                   Home
@@ -46,7 +46,7 @@ export default class Header extends Component {
                   role="button"
                   data-toggle="dropdown"
                 >
-                  Account
+                  <i class="fas fa-user-circle"></i> Account
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">
@@ -62,15 +62,6 @@ export default class Header extends Component {
                 </div>
               </li>
             </ul>
-            <form class="form-inline">
-              <input class="form-control" type="search" placeholder="Search" />
-              <button
-                class="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
-              >
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </nav>
