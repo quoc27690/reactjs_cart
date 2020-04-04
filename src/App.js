@@ -11,12 +11,10 @@ function App() {
   return (
     <div>
       <Header />
-      <div className="container-fluid">
-        <Products />
-        <Message />
-        <Cart />
-      </div>
-      {/* <Footer /> */}
+      <Products />
+      <Message />
+      <Cart />
+      <Footer />
     </div>
   );
 }

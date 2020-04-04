@@ -4,23 +4,30 @@ import "../App.css";
 export default class Footer extends Component {
   render() {
     return (
-      <div>
-        <div className="container-fluid row">
-          <div className="col-2">
+      <div className="container-fluid">
+        <div className="row bg-dark text-white">
+          <div className="col-md-6 col-lg-3">
             <h5>Social Media</h5>
-            <div className="">
-              <i className="fab fa-facebook"></i>
-              <i className="fab fa-instagram"></i>
-              <i className="fab fa-twitter"></i>
-              <i className="fab fa-youtube"></i>
-              <i className="fab fa-linkedin"></i>
-              <i className="fab fa-dribbble left"></i>
-              <i className="fab fa-pinterest"></i>
-              <i className="fab fa-google-plus"></i>
+            <div class=" social">
+              <a href="#">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-youtube"></i>
+              </a>
             </div>
           </div>
-          <div className="col-lg-2">
-            <h5 className="title">Delivery</h5>
+          <div className="col-md-6 col-lg-3">
+            <h5>Delivery</h5>
             <ul>
               <li>
                 <a>Store Delivery</a>
@@ -36,8 +43,8 @@ export default class Footer extends Component {
               </li>
             </ul>
           </div>
-          <div className="col-lg-2">
-            <h5 className="title">Need help?</h5>
+          <div className="col-md-6 col-lg-3">
+            <h5>Need help?</h5>
             <ul>
               <li>
                 <a>FAQ</a>
@@ -53,112 +60,40 @@ export default class Footer extends Component {
               </li>
             </ul>
           </div>
-          <div className="col-lg-4">
-            <h5 className="title">Instagram Photos</h5>
-            <ul className="instagram-photos">
-              <li>
-                <div className="view overlay hm-white-slight z-depth-1">
-                  <img
-                    className="img-fluid"
-                    src="http://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
-                    alt=""
-                  />
-                  <a>
-                    <div className="mask waves-light waves-effect waves-light"></div>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div className="view overlay hm-white-slight z-depth-1">
-                  <img
-                    className="img-fluid"
-                    src="http://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
-                    alt=""
-                  />
-                  <a>
-                    <div className="mask waves-light waves-effect waves-light"></div>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div className="view overlay hm-white-slight z-depth-1">
-                  <img
-                    className="img-fluid"
-                    src="http://mdbootstrap.com/img/Photos/Avatars/img%20(19).jpg"
-                    alt=""
-                  />
-                  <a>
-                    <div className="mask waves-light waves-effect waves-light"></div>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div className="view overlay hm-white-slight z-depth-1">
-                  <img
-                    className="img-fluid"
-                    src="http://mdbootstrap.com/img/Photos/Avatars/img%20(16).jpg"
-                    alt=""
-                  />
-                  <a>
-                    <div className="mask waves-light waves-effect waves-light"></div>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div className="view overlay hm-white-slight z-depth-1">
-                  <img
-                    className="img-fluid"
-                    src="http://mdbootstrap.com/img/Photos/Avatars/img%20(5).jpg"
-                    alt=""
-                  />
-                  <a>
-                    <div className="mask waves-light waves-effect waves-light"></div>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div className="view overlay hm-white-slight z-depth-1">
-                  <img
-                    className="img-fluid"
-                    src="http://mdbootstrap.com/img/Photos/Avatars/img%20(18).jpg"
-                    alt=""
-                  />
-                  <a>
-                    <div className="mask waves-light waves-effect waves-light"></div>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div className="view overlay hm-white-slight z-depth-1">
-                  <img
-                    className="img-fluid"
-                    src="http://mdbootstrap.com/img/Photos/Avatars/img%20(15).jpg"
-                    alt=""
-                  />
-                  <a>
-                    <div className="mask waves-light waves-effect waves-light"></div>
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div className="view overlay hm-white-slight z-depth-1">
-                  <img
-                    className="img-fluid"
-                    src="http://mdbootstrap.com/img/Photos/Avatars/img%20(17).jpg"
-                    alt=""
-                  />
-                  <a>
-                    <div className="mask waves-light waves-effect waves-light"></div>
-                  </a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="footer-copyright">
-          <div className="container-fluid">
-            © 2016 Copyright:
-            <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
+          <div className="col-md-6 col-lg-3">
+            <h5>Instagram Photos</h5>
+            <div>
+              <img
+                src="http://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                alt=""
+                style={{ height: 100 }}
+              />
+              <img
+                src="http://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg"
+                alt=""
+                style={{ height: 100 }}
+              />
+              <img
+                src="http://mdbootstrap.com/img/Photos/Avatars/img%20(11).jpg"
+                alt=""
+                style={{ height: 100 }}
+              />
+              <img
+                src="http://mdbootstrap.com/img/Photos/Avatars/img%20(12).jpg"
+                alt=""
+                style={{ height: 100 }}
+              />
+              <img
+                src="http://mdbootstrap.com/img/Photos/Avatars/img%20(13).jpg"
+                alt=""
+                style={{ height: 100 }}
+              />
+              <img
+                src="http://mdbootstrap.com/img/Photos/Avatars/img%20(14).jpg"
+                alt=""
+                style={{ height: 100 }}
+              />
+            </div>
           </div>
         </div>
       </div>

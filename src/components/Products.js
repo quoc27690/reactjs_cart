@@ -5,7 +5,7 @@ import Product from "./Product";
 export default class Products extends Component {
   render() {
     return (
-      <div>
+      <div class="container-fluid">
         <h2 className="text-center">Danh Sách Sản Phẩm</h2>
         <hr className="my-4" />
         <div className="row text-center">
